@@ -12538,15 +12538,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\server.csproj",
+      "projectUniqueName": "c:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "C:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\server.csproj",
+      "projectPath": "c:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\server.csproj",
       "packagesPath": "C:\\Users\\emidi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\obj\\",
+      "outputPath": "c:\\Users\\emidi\\git\\bs4-ng5-dotnetcore2\\server\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
