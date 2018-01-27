@@ -1,0 +1,11 @@
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\bin\Debug\netcoreapp2.0\server.deps.json
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.json
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.dev.json
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\bin\Debug\netcoreapp2.0\server.dll
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\bin\Debug\netcoreapp2.0\server.pdb
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.csprojResolveAssemblyReference.cache
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.csproj.CoreCompileInputs.cache
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.AssemblyInfoInputs.cache
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.AssemblyInfo.cs
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.dll
+C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\server\obj\Debug\netcoreapp2.0\server.pdb

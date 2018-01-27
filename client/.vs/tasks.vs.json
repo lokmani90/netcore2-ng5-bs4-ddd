@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "attività-package",
+      "appliesTo": "package.json",
+      "type": "launch"
+    }
+  ]
+}
