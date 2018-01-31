@@ -6,15 +6,19 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login.component';
+import { HomeComponent } from './home.component';
 
 const appRoutes: Routes = [
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent},
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
