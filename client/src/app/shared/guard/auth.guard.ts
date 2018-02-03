@@ -9,7 +9,7 @@ export class AuthGuard implements CanActivate {
     canActivate() {
         // tslint:disable-next-line:no-debugger
         debugger;
-        if (localStorage.getItem('isLoggedin')) {
+        if (localStorage.getItem('token')) {
             return true;
         }
 

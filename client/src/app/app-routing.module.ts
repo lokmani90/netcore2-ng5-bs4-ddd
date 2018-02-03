@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './shared/guard/auth.guard';
 
 const appRoutes: Routes = [
-  { path: 'login', loadChildren: './login/login.module#LoginModule' },
-  { path: '', loadChildren: './home/home.module#HomeModule' ,  canActivate: [AuthGuard]  }
+  { path: '', loadChildren: './layout/layout.module#LayoutModule' ,  canActivate: [AuthGuard]  },
+  { path: 'login', loadChildren: './login/login.module#LoginModule' }
 ];
 
 
