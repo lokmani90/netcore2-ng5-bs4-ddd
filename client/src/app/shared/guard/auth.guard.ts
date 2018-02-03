@@ -7,6 +7,8 @@ export class AuthGuard implements CanActivate {
     constructor(private router: Router) {}
 
     canActivate() {
+        // tslint:disable-next-line:no-debugger
+        debugger;
         if (localStorage.getItem('isLoggedin')) {
             return true;
         }
