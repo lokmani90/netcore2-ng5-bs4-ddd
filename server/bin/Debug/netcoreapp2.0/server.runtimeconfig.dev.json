@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/emidio/.dotnet/store/|arch|/|tfm|",
-      "/Users/emidio/.nuget/packages",
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\emidi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\emidi\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
