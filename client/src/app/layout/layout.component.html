@@ -1,6 +1,6 @@
     <!-- Navbar-->
     <header class="app-header"><a class="app-header__logo" href="index.html">Baldios</a>
-      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" data-toggle="sidebar"></a>
+      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
         <li class="app-search">
@@ -30,7 +30,8 @@
         </div>
       </div>
       <ul class="app-menu">
-
+        <li><a class="app-menu__item" [routerLink]="['/home']" href="#"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Home</span></a></li>
+        <li><a class="app-menu__item" [routerLink]="['/dashboard']" href="#"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Dashboard</span></a></li>
       </ul>
     </aside>
     <main class="app-content">
