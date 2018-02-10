@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared/guard/auth.guard';
 
+import { CoreModule } from './shared/core/core.module';
+
 
 
 @NgModule({
@@ -15,6 +17,7 @@ import { AuthGuard } from './shared/guard/auth.guard';
   ],
   imports: [
     BrowserModule,
+    CoreModule.forRoot(),
     AppRoutingModule
   ],
   providers: [AuthGuard],
