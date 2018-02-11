@@ -8,6 +8,10 @@ import { Router } from '@angular/router';
   templateUrl: './login.component.html'
 })
 export class LoginComponent {
+
+  public UsernameValid: boolean;
+  public PasswordValid: boolean;
+
   constructor(private session: SessionService, private router: Router) {
 
   }
