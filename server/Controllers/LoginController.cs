@@ -7,16 +7,15 @@ using server.Models;
 
 namespace server.Controllers
 {
-    [Route("api/login")]
+    [Route("api/[controller]/[action]")]
+   
     public class LoginController : Controller
     {
-        
-        [HttpGet]
-        public IActionResult Login()
+        [HttpPost]
+        [ActionName("gettoken")]
+        public IActionResult GetToken()
         {
             return Ok("token-valid");
         }
-
-        
     }
 }

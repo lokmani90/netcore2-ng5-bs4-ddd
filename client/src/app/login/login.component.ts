@@ -4,6 +4,7 @@ import { Session } from 'protractor';
 import { Router } from '@angular/router';
 import { LoginViewModel } from './login.viewmodel';
 import { HttpClient } from '@angular/common/http';
+import { LoginDTO } from './loginDTO.model';
 
 
 @Component({
@@ -15,10 +16,12 @@ export class LoginComponent {
   public vm: LoginViewModel;
 
   constructor(private session: SessionService, private router: Router, private http: HttpClient) {
-
+    this.vm = new LoginViewModel();
   }
 
   public signInClicked() {
+    // tslint:disable-next-line:no-debugger
+    debugger;
     let errors = false;
 
     if (this.vm.loginDTO.Username === '') {
@@ -30,9 +33,14 @@ export class LoginComponent {
       errors = true;
     }
 
-
-
-    this.session.Token = 'token-value';
-    this.router.navigate(['/home']);
+    if (!errors) {
+      this.http.post<string>('/api/login/gettoken', this.vm.loginDTO).subscribe(p => {
+        this.session.Token = p;
+        this.router.navigate(['/home']);
+      }, error => {
+        this.session.Token = null;
+        this.vm.AuthError = error;
+      });
+    }
   }
 }

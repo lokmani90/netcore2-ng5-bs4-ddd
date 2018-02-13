@@ -5,4 +5,12 @@ export class LoginViewModel {
 
   public UsernameError: string;
   public PasswordError: string;
+  public AuthError: string;
+
+  constructor() {
+    this.loginDTO = new LoginDTO('', '');
+    this.UsernameError = '';
+    this.PasswordError = '';
+    this.AuthError = '';
+  }
 }

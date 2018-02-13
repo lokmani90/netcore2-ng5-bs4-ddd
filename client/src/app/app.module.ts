@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { AuthGuard } from './shared/guard/auth.guard';
 
 import { CoreModule } from './shared/core/core.module';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -18,6 +19,7 @@ import { CoreModule } from './shared/core/core.module';
     AppComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     HttpClientModule,
     CoreModule.forRoot(),
