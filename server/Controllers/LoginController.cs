@@ -8,14 +8,16 @@ using server.Models;
 namespace server.Controllers
 {
     [Route("api/[controller]/[action]")]
-   
     public class LoginController : Controller
     {
+
         [HttpPost]
         [ActionName("gettoken")]
-        public IActionResult GetToken()
+        public IActionResult GetToken([FromBody] LoginDTO logindto)
         {
             return Ok("token-valid");
         }
+
+        
     }
 }

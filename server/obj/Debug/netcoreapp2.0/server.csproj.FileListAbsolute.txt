@@ -1,13 +1,3 @@
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/bin/Debug/netcoreapp2.0/server.deps.json
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/bin/Debug/netcoreapp2.0/server.runtimeconfig.json
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/bin/Debug/netcoreapp2.0/server.runtimeconfig.dev.json
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/bin/Debug/netcoreapp2.0/server.dll
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/bin/Debug/netcoreapp2.0/server.pdb
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/obj/Debug/netcoreapp2.0/server.csproj.CoreCompileInputs.cache
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/obj/Debug/netcoreapp2.0/server.AssemblyInfoInputs.cache
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/obj/Debug/netcoreapp2.0/server.AssemblyInfo.cs
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/obj/Debug/netcoreapp2.0/server.dll
-/Users/emidio/git/bs4-ng5-dotnetcore2/server/obj/Debug/netcoreapp2.0/server.pdb
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.deps.json
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.json
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.dev.json
@@ -18,3 +8,13 @@ C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.Ass
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.AssemblyInfo.cs
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.dll
 C:\Users\emidi\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.pdb
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.deps.json
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.json
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.runtimeconfig.dev.json
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.dll
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\bin\Debug\netcoreapp2.0\server.pdb
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.csproj.CoreCompileInputs.cache
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.AssemblyInfoInputs.cache
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.AssemblyInfo.cs
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.dll
+C:\Users\Emidio\git\bs4-ng5-dotnetcore2\server\obj\Debug\netcoreapp2.0\server.pdb

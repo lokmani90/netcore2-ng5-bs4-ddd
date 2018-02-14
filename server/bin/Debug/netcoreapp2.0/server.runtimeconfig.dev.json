@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\emidi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\emidi\\.nuget\\packages",
+      "C:\\Users\\Emidio\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Emidio\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
