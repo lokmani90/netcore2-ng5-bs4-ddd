@@ -11,7 +11,7 @@ import { AuthGuard } from './shared/guard/auth.guard';
 
 import { CoreModule } from './shared/core/core.module';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -20,6 +20,7 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     BrowserModule,
     HttpClientModule,
     CoreModule.forRoot(),
